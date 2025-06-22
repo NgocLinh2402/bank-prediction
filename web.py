@@ -8,6 +8,7 @@ from sklearn.preprocessing import StandardScaler
 model_dict = {
     "KNN": joblib.load("knn.pkl"),
     "SVM": joblib.load("svm.pkl"),
+    "XGBoost": joblib.load("XGBoost.pkl")
     
 }
 scaler = joblib.load("scaler.pkl")  
